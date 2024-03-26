@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru" data-validate="html">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cook-Tour">
+  <title>Cook-Tour</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/header.css">
+  <link rel="stylesheet" href="./css/hero.css">
+  <link rel="stylesheet" href="./css/events.css">
+</head>
+<body>
+  <header data-test="header">
+    <span class="header__logo">
+      <img src="./assets/logo.svg" class="header__logo">
+    </span>
+    <ul class="header__nav"> 
+      <li class="header__nav_item">Гастротуры</li>
+      <li class="header__nav_item">Бронирование</li>
+      <li class="header__nav_item">О нас</li>
+      <li class="header__nav_item">Отзывы</li>
+      <li class="header__nav_item">Фотографии</li>
+      <li class="header__nav_item">Контакты</li>
+    </ul>
+    <span class="header__phone">8 800 725-32-32</span>
+  </header>
+  <main>
+    <section data-test="hero" class="hero__container">
+      <div class="hero__wrapper">
+        <h1 class="hero__title">Исследуйте вкусы <br/><span>Кавказа</span></h1>
+        <span class="hero__description">
+          В сопровождении опытных шеф-поваров вы откроете для себя богатство кавказской кухни и научитесь готовить традиционные блюда.
+        </span>
+        <button class="hero__button">
+          Подробнее о курсе
+        </button>
+      </div>
+    </section>
+    <section data-test="events" class="events__container">
+      <h2 class="events__title">Предстоящие события</h2>
+      <article class="events__card_list">
+        <div class="events__card card__1">
+          <span class="events__card_location">
+            <span class="events__card_location_marker">
+              <img src="./assets/marker.svg">
+            </span>
+            Кавказ
+          </span>
+          <div class="events__card_info">
+            <span class="events__card_info_date">
+              <span class="events__card_info_date_calendar">
+                <img src="./assets/calendar.svg">
+              </span>
+              4 дня
+            </span>
+            <h3 class="events__card_info_text">Гастрономическое путешествие вокруг Кавказа</h3>
+            <div class="events__card_info_rating">
+              <span>Сложность:</span>
+              <span class="events__card_info_rating_stars">
+                <img src="./assets/star-fill.svg">
+                <img src="./assets/star-fill.svg">
+                <img src="./assets/star-fill.svg">
+                <img src="./assets/star-empty.svg">
+                <img src="./assets/star-empty.svg">
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="events__card card__2">
+          <span class="events__card_location">
+            <span class="events__card_location_marker">
+              <img src="./assets/marker.svg">
+            </span>
+            Алтай
+          </span>
+          <div class="events__card_info">
+            <span class="events__card_info_date">
+              <span class="events__card_info_date_calendar">
+                <img src="./assets/calendar.svg">
+              </span>
+              13 дней
+            </span>
+            <h3 class="events__card_info_text">Путь к мастерству в приготовлении блюд Алтая</h3>
+            <div class="events__card_info_rating">
+              <span>Сложность:</span>
+              <span class="events__card_info_rating_stars">
+                <img src="./assets/star-fill.svg">
+                <img src="./assets/star-fill.svg">
+                <img src="./assets/star-fill.svg">
+                <img src="./assets/star-fill.svg">
+                <img src="./assets/star-fill.svg">
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="events__card card__3">
+          <span class="events__card_location">
+            <span class="events__card_location_marker">
+              <img src="./assets/marker.svg">
+            </span>
+            Адыгея
+          </span>
+          <div class="events__card_info">
+            <span class="events__card_info_date">
+              <span class="events__card_info_date_calendar">
+                <img src="./assets/calendar.svg">
+              </span>
+              6 дней
+            </span>
+            <h3 class="events__card_info_text">От горных трав до морских деликатесов</h3>
+            <div class="events__card_info_rating">
+              <span>Сложность:</span>
+              <span class="events__card_info_rating_stars">
+                <img src="./assets/star-fill.svg">
+                <img src="./assets/star-fill.svg">
+                <img src="./assets/star-fill.svg">
+                <img src="./assets/star-fill.svg">
+                <img src="./assets/star-fill.svg">
+              </span>
+            </div>
+          </div>
+        </div>
+      </article>
+      <button class="events__button">
+        Показать все курсы <img src="./assets/arrow.svg">
+      </button>
+    </section>
+  </main>
+</body>
+</html>

@@ -1,0 +1,55 @@
+@font-face {
+    font-family: "Montserrat";
+    src: local('Montserrat'),
+        url('../fonts/Montserrat-400.woff2');
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Montserrat";
+    src: local('Montserrat'),
+        url('../fonts/Montserrat-500.woff2');
+    font-weight: 500;
+}
+@font-face {
+    font-family: "Montserrat";
+    src: local('Montserrat'),
+        url('../fonts/Montserrat-600.woff2');
+    font-weight: 600;
+}
+@font-face {
+    font-family: "Montserrat";
+    src: local('Montserrat'),
+        url('../fonts/Montserrat-700.woff2');
+    font-weight: 700;
+}
+@font-face {
+    font-family: "Playfair";
+    src: local('Playfair'),
+        url('../fonts/Playfair-700.woff2');
+    font-weight: 700;
+}
+@font-face {
+    font-family: "Playfair";
+    src: local('Playfair'),
+        url('../fonts/Playfair-800.woff2');
+    font-weight: 800;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+.hero__title {
+    font-family: 'Playfair';
+}
+
+.hero__title span {
+    font-family: 'Playfair';
+}
+
+.events__card_info_text, .events__title {
+    font-family: 'Playfair';
+}
